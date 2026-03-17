@@ -1,68 +1,60 @@
-# Blockchain - Gerando uma carteira BTC ₿
+# Atividade com fluxograma e git/github
 
 
 ## 💻 Tecnologias Usadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [NodeJS](https://nodejs.org)
-- Lib bip32
-- Lib bip39
-- Lib bitcoinjs-lib
-- [Electrum](https://electrum.org/)
+- Git
+- LGitHub
+
+
 
 ## 👽 Projeto
 
-A Carteira foi criada na rede Testnet uma rede válida apenas para testes mesmo, e que é separada da rede Mainnet a rede principal do BITCOIN.
-Usamos o token Faucet para realizar as transações nas carteiras, um token sem valor, utilizado apenas para validar o correto funcionamento dos endereços
-
-Deixarei algumas imagens para um melhor entendimento de como ocorreu toda a atividade, desde a elaboração do script até as transações realizadas nos endereços criados a partir do código...
+Ele é utilizado para resolução de problemas com raciocínio lógico e construção de passo a passos para realizar alguma tarefa.
 
 
+Exercicio 1:
 
-![image](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/f7b84d5d-ec82-4394-8455-b2cbd3e6b393)
+<img width="500" height="536" alt="image" src="https://github.com/user-attachments/assets/d0892ff5-dd48-47d9-8307-754d7023e1d9" />
+Resultado:
 
-O código é simples, mas funcional.
+<img width="858" height="240" alt="image" src="https://github.com/user-attachments/assets/0f65fefe-c09e-4833-a285-76a9ca07d476" />
+
+Excercio 2:
+
+<img width="523" height="671" alt="image" src="https://github.com/user-attachments/assets/9023518e-e662-48a4-a42f-8f190aa27539" />
+Resultado:
+
+<img width="876" height="359" alt="image" src="https://github.com/user-attachments/assets/f38c0927-f074-4237-919e-859e93470c69" />
+
+Exercicio 3:
+
+<img width="736" height="663" alt="image" src="https://github.com/user-attachments/assets/331f2bd6-3783-4e18-a84d-6c8cbd63996b" />
+Resultado:
+
+<img width="878" height="245" alt="image" src="https://github.com/user-attachments/assets/3b4a3fb3-65e6-4970-80d1-be8220152575" />
+
+Exercicio 4:
+
+<img width="807" height="660" alt="image" src="https://github.com/user-attachments/assets/98818d5c-a88d-465b-8a0c-21d58f9df975" />
+Resultado:
+
+<img width="887" height="235" alt="image" src="https://github.com/user-attachments/assets/599489f3-1d15-4f38-8d92-8ca162ebff5b" />
+Excercicio 5:
+
+<img width="498" height="742" alt="image" src="https://github.com/user-attachments/assets/c9a4b507-92b9-4aaa-a82d-8945a4530b28" />
+Resultado:
+
+<img width="869" height="278" alt="image" src="https://github.com/user-attachments/assets/d3ba18d8-28dd-42b9-9cd8-e31eb0d18c7e" />
 
 
-Após salvar o script, adentrei a pasta src via Terminal e rodei por duas vezes o seguinte comando 
-
-```
-node .\createWallet.js
-
-```
-
-Gerando assim, duas carteiras, com os seguintes endereços no qual destaquei em amarelo:
-
-![ultima foto](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/58a1bff6-2b57-4297-80b9-d51d5f974936)
-
-##
 
 
-A seguir, deixarei duas imagens da interface gráfica do ELECTRUM, o software gerenciador de carteiras usado para efetuar as transações
-
-![saldo na carteira electrum](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/ae9a3036-10b6-445a-ab5a-b2d8b78446f5)
-![btc enviado pelo carlitos](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/f345dee6-7ac6-4f42-bea8-59a0bc58d367)
 
 
-Não posso deixar de pontuar a alteração necessária que deve ser feita na aba propriedades do app para seu correto funcionamento na atividade
 
-![electrum alter](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/a134d872-0552-4ff4-8ad7-55a60da21731)
 
-##
-
-Usei o site https://coinfaucet.eu/en/btc-testnet/ para enviar tBTC para minha carteira.  
-
-![btc enviados pelo site](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/e5fe81fe-2199-44c8-b288-1d2e14a79960)
-
-##
-
-E por fim, acompanhei as transações na blockchain pelo site https://live.blockcypher.com/btc-testnet/  
-
-![btcs transacionados](https://github.com/Carloscam98/gerador-de-carteira-BTC/assets/114948535/3383ef1a-4dd5-4be9-b37b-3513fcad9063)
-
-##
-
-Note que os endereços das imagens de exemplo, são os endereços gerados pelo nosso gerador de carteiras, constatando assim, a eficiência da nossa ferramenta elaborada ! 
 
 
